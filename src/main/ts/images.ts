@@ -5,7 +5,7 @@
 class ImagesCtrl{
   constructor() {
     const images = document.getElementsByClassName('mxt-img--lazyload');
-    Array.from(images).forEach((image: HTMLImageElement) => image.src= image.getAttribute('data-src'));
+    Array.prototype.forEach.call(images, (image: HTMLImageElement) => image.src= image.getAttribute('data-src'));
   }
 }
 

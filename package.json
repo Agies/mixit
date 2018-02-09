@@ -26,15 +26,14 @@
     "gulp-util": "^3.0.8",
     "gulp-webp": "^2.3.0",
     "imagemin-mozjpeg": "^6.0.0",
+    "node-sass": "^4.7.2",
     "run-sequence": "^1.2.2",
     "sw-precache": "^5.0.0",
     "sw-toolbox": "^3.5.1",
-    "typescript": "^2.1.5"
+    "tslint": "^5.9.1",
+    "typescript": "2.6.2"
   },
   "dependencies": {
-    "@types/core-js": "^0.9.35",
-    "@types/service_worker_api": "^0.0.8",
-    "@types/whatwg-fetch": "^0.0.33",
     "foundation-sites": "^6.3.1",
     "jquery": "^3.1.1",
     "motion-ui": "^1.2.2",
